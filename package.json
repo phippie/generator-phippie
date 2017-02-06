@@ -1,0 +1,50 @@
+{
+  "name": "generator-phippie",
+  "version": "0.1.0",
+  "description": "Symfony + Angular generator",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "PHP",
+    "Symfony",
+    "Doctrine",
+    "Twig",
+    "AngularJS",
+    "Angular",
+    "Twitter Bootstrap"
+  ],
+  "homepage": "http://phippie.github.io/",
+  "bugs": "https://github.com/phippie/generator-phippie/issues",
+  "author": {
+    "name": "Piotr Plenik",
+    "email": "",
+    "url": "https://github.com/jupeter"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phippie/generator-phippie.git"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "test": "mocha --timeout 20000 --slow 0 --reporter spec"
+  },
+  "dependencies": {
+    "chalk": "1.1.3",
+    "yeoman-generator": "0.24.1"
+  },
+  "devDependencies": {
+    "eslint": "3.4.0",
+    "yeoman-assert": "2.2.1",
+    "yeoman-test": "1.4.0"
+  },
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=2.14.2"
+  },
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,5 @@
+Description:
+    Creates a new PHippie application based on the selected options
+
+Example:
+    yo phippie
